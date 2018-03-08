@@ -1,6 +1,6 @@
 # Tomster recognition with Darknet
 
-![Tomster image](http://macdown.uranusjr.com/static/images/logo-160.png)
+![](https://user-images.githubusercontent.com/12214867/37154767-511bbefa-22e1-11e8-83b3-4b6c502b70a5.png)
 
 ## 1. Collecting the data
   - images/photos
@@ -56,7 +56,7 @@
   ```
   darknet detector demo path/to/*.data path/to/*.cfg path/to/*.weights
   ```
-  optional:
+  Change the detection threshold(optional):
   ```
   thresh 0.X
   ```
